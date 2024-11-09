@@ -1,0 +1,20 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>To incorporate MongoDB as the storage for this project, create the <em>docker-compose.yaml </em>file that launches the MongoDB service using the official <a href="https://hub.docker.com/_/mongo" rel="noopener noreferrer nofollow" target="_blank">Mongo image</a>.</p>
+<p></p><div class="alert alert-primary">Please navigate and work in the <em>task-manager</em> directory for upcoming tasks. The Docker files, the primary application, and the API documentation are there. You need to run stage-specific commands inside that directory.</div>
+<h5 id="objectives">Objectives</h5>
+<ul>
+<li>In the <em>docker-compose.yaml</em> file, define the file syntax version as <code class="java">3.1</code>;</li>
+<li>Define one service with the attributes below:
+	<ul>
+<li>Define the service with the <code class="java">mongodb</code> name;</li>
+<li>Use the official <code class="java">mongo:6.0.8</code> image;</li>
+<li>Define a container name with the <code class="java">hyper-mongo</code> value;</li>
+<li>Map the host port as <code class="java">27027</code> to the container port <code class="java">27017</code>;</li>
+<li>Define the <code class="java">MONGO_INITDB_ROOT_USERNAME</code>environment variable with the <code class="java">${MONGO_INITDB_ROOT_USERNAME}</code>value;</li>
+<li>Define the <code class="java">MONGO_INITDB_ROOT_PASSWORD</code> environment variable with the <code class="java">${MONGO_INITDB_ROOT_PASSWORD}</code> value;</li>
+<li>Define the <code class="java">env_file</code> option for the <em>.env</em> file.</li>
+</ul>
+</li>
+</ul>
+</div>

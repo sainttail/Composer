@@ -1,0 +1,11 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>To be ready for further expansion with multiple services, it is common practice to define networks and volumes in <code class="java">docker-compose</code>, even if there is currently only one service. Let's modify the <em>docker-compose.yaml</em> file by adding a network and a permanent volume for the service.</p>
+<h5 id="objectives">Objectives</h5>
+<ul>
+<li>Define the volume with the <code class="java">mongo-data</code> name;</li>
+<li>Define the network with the <code class="java">hyper-task-manager-network</code> name;</li>
+<li>Add the network to the <code class="java">mongodb</code> service.</li>
+<li>Add the volume to the <code class="java">mongodb</code> service and map it to the container's <em>/data/db </em>directory.</li>
+</ul>
+</div>
